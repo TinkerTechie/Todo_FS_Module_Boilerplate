@@ -1,3 +1,22 @@
+
+const getTodosSync = () => {}
+
+const getTodoSync = (id) => {
+
+};
+
+const createTodoSync = (todo) => {
+
+};
+
+const updateTodoSync = (id, updates) => {
+ 
+};
+
+const deleteTodoSync = (id) => {
+ 
+};
+
 const getTodos = () => {
   
 };
