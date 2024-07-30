@@ -1,43 +1,29 @@
+const getTodosSync = () => {};
 
-const getTodosSync = () => {}
+const getTodoSync = (id) => {};
 
-const getTodoSync = (id) => {
+const createTodoSync = (todo) => {};
 
-};
+const updateTodoSync = (id, updates) => {};
 
-const createTodoSync = (todo) => {
+const deleteTodoSync = (id) => {};
 
-};
+const getTodos = () => {};
 
-const updateTodoSync = (id, updates) => {
- 
-};
+const getTodo = (id) => {};
 
-const deleteTodoSync = (id) => {
- 
-};
+const createTodo = (todo) => {};
 
-const getTodos = () => {
-  
-};
+const updateTodo = async (id, updates) => {};
 
-const getTodo = (id) => {
-  
-};
-
-const createTodo = (todo) => {
- 
-};
-
-const updateTodo = async (id, updates) => {
-
-};
-
-const deleteTodo = async (id, updates) => {
-
-};
+const deleteTodo = async (id, updates) => {};
 
 module.exports = {
+  getTodosSync,
+  getTodoSync,
+  createTodoSync,
+  updateTodoSync,
+  deleteTodoSync,
   getTodos,
   getTodo,
   createTodo,
