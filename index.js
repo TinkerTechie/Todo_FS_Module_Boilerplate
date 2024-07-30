@@ -16,7 +16,7 @@ const createTodo = (todo) => {};
 
 const updateTodo = async (id, updates) => {};
 
-const deleteTodo = async (id, updates) => {};
+const deleteTodo = async (id) => {};
 
 module.exports = {
   getTodosSync,
